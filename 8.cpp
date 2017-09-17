@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<mpi.h>
-int main()
+int main8()
 {
 	int np, pid;
 	MPI_Status sta;

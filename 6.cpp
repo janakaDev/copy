@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<mpi.h>
-int main()
+int main6()
 {
 	int np, pid;
 	MPI_Init(NULL, NULL);
