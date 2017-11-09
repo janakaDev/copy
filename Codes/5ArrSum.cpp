@@ -22,7 +22,7 @@ int main5()
 		{
 			MPI_Recv(&recv, 1, MPI_INT, j, 50, MPI_COMM_WORLD, &sta);
 			printf("My proccessor id is %d and I'm receiver from %d, The message is %d \n", pid, j, recv);
-			sum -= recv;
+			sum += recv;
 		}
 
 		printf("My proccessor id is %d and total = %d \n", pid, sum);
